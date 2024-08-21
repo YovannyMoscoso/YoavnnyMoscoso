@@ -2,7 +2,7 @@ import styles from './Contact.module.css';
 
 function Contact() {
   const apiUrl = import.meta.env.VITE_API_URL;
-  const apiKey = import.meta.env.REACT_APP_API_KEY;
+  const apiKey = import.meta.env.VITE_API_KEY;
 
     return (
         <div id="contact">
