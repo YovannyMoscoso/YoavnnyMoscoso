@@ -1,6 +1,9 @@
 import styles from './Contact.module.css';
 
 function Contact() {
+  const apiUrl = import.meta.env.VITE_API_URL;
+  const apiKey = import.meta.env.REACT_APP_API_KEY;
+
     return (
         <div id="contact">
             <div className="card card-body bg-danger text-white py-5 rounded-0">
@@ -11,8 +14,8 @@ function Contact() {
                 <p className='lead'>
                     {"Feel free to reach out if you're a recruiter or developer. I'm available to discuss opportunities and respond to any inquiries. Leave a message, and I'll get back to you as soon as possible."}
                 </p>
-                <form action="https://api.web3forms.com/submit" method="POST">
-                  <input type="hidden" name="access_key" value="d071f2a5-548e-4a02-827d-8b77170c5b2a"/>
+                <form action={apiUrl} method="POST">
+                  <input type="hidden" name="access_key" value={apiKey}/>
                     <div className="form-group">
                         <div className="input-group input-group-lg">
                             <div className="input-group-prepend">
