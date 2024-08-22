@@ -1,0 +1,5 @@
+.sticky-bottom {
+    position: absolute;
+    bottom: 5px;
+    margin-bottom: 0; /* Ensure no additional margin interferes */
+}
