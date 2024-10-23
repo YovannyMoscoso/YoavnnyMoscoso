@@ -31,7 +31,8 @@ const Work = () => {
               <div className="card">
                 <div className="card-body">
                   <p className="card-text">
-                    This project includes a PowerPoint presentation detailing database architecture and business problems addressed with Oracle SQL.
+                    This project includes a PowerPoint presentation detailing database architecture and business problems addressed with Oracle SQL. 
+                    <a href="https://onedrive.live.com/view.aspx?resid=6631EE7EA989D12F!149&ithint=file%2cpptx&authkey=!AMsr-W8B83R7EHU" className='btn btn-link' target="blank">Inventory Management System</a>
                   </p>
                   <div className="embed-responsive embed-responsive-16by9">
                     <video controls className="embed-responsive-item" src="/path/to/your-database-video.mp4" />
@@ -89,6 +90,40 @@ const Work = () => {
               aria-controls="collapseThree"
             >
               JavaFX Project
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            className="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#projectsAccordion"
+          >
+            <div className="accordion-body">
+              <div className="card">
+                <div className="card-body">
+                  <p className="card-text">
+                    A JavaFX project showcasing graphical user interface capabilities.
+                  </p>
+                  <div className="embed-responsive embed-responsive-16by9">
+                    <video controls className="embed-responsive-item" src="/path/to/your-javafx-video.mp4" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+                {/* JavaFX Project */}
+                <div className="accordion-item mb-4">
+          <h2 className="accordion-header" id="headingThree">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Data Science
             </button>
           </h2>
           <div

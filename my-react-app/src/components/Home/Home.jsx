@@ -7,27 +7,27 @@ function Home() {
             </div>
             <div className="card card-body py-5 rounded-0">
                 <h3>My Skills</h3>
-                <p>{"Through my university projects, I've gained valuable expertise in industry-leading frameworks and technologies. These experiences have sharpened my skills in the following key areas:"}</p>
+                <p>{"Through my university projects, I had the opportunity to work with some industry-leading frameworks and technologies. These experiences have sharpened my skills in the following key areas:"}</p>
                 <hr />
                 <h4>Java</h4>
                 <div className="progress mb-3">
-                    <div className="progress-bar bg-success" style={{ width: "95%" }}></div>
+                    <div className="progress-bar bg-success" style={{ width: "90%" }}></div>
                 </div>
                 <h4>Python</h4>
                 <div className="progress mb-3">
-                    <div className="progress-bar bg-success" style={{ width: "95%" }}></div>
+                    <div className="progress-bar bg-success" style={{ width: "90%" }}></div>
                 </div>
                 <h4>SQL</h4>
                 <div className="progress mb-3">
-                    <div className="progress-bar bg-success" style={{ width: "95%" }}></div>
+                    <div className="progress-bar bg-success" style={{ width: "90%" }}></div>
                 </div>
                 <h4>JavaScript</h4>
                 <div className="progress mb-3">
-                    <div className="progress-bar bg-success" style={{ width: "80%" }}></div>
+                    <div className="progress-bar bg-success" style={{ width: "75%" }}></div>
                 </div>
                 <h4>HTML</h4>
                 <div className="progress mb-3">
-                    <div className="progress-bar bg-success" style={{ width: "70%" }}></div>
+                    <div className="progress-bar bg-success" style={{ width: "75%" }}></div>
                 </div>
                 <h4>React</h4>
                 <div className="progress mb-3">

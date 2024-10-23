@@ -10,7 +10,7 @@ function Header({ onToggle }) { // Accept the onToggle prop
       <header id="main-header">
         <div className="row no-gutters">
           <div className="col-lg-4 col-md-5">
-            <img src={graduationPic} style={{ height: "386px"}} alt="Graduation Pic" />
+            <img src={graduationPic} style={{ height: "339px"}} alt="Graduation Pic" />
           </div>
 
           <div className="col-lg-8 col-md-7">
@@ -36,7 +36,7 @@ function Header({ onToggle }) { // Accept the onToggle prop
                 </div>
               </div>
               <div className="p-4 bg-black">
-                Experienced Full Stack Web Developer
+              Computer Science Graduate | Specializing in Data Science & Software Engineering
               </div>
 
               <div>
